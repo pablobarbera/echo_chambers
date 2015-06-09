@@ -1,12 +1,12 @@
 Replication materials: _Is Online Political Communication More Than an Echo Chamber?_
 --------------
 
-This github repository contains the replication code for the paper "Tweeting from Left to Right: Is Online Political Communication More Than an Echo Chamber?", forthcoming in _Psychological Science_, authored by [Pablo Barbera](http://www.pablobarbera.com), [John T. Jost](http://psych.nyu.edu/jost/), [Jonathan Nagler](http://politics.as.nyu.edu/object/JonathanNagler), [Joshua Tucker](https://files.nyu.edu/jat7/public/), and [Richard Bonneau](http://bonneaulab.bio.nyu.edu/), all members of the [Social Media and Political Participation (SMaPP) Lab](http://smapp.nyu.edu/) at NYU.
+This github repository contains the replication code for the paper "Tweeting from Left to Right: Is Online Political Communication More Than an Echo Chamber?", forthcoming in ___Psychological Science___, authored by [Pablo Barbera](http://www.pablobarbera.com), [John T. Jost](http://psych.nyu.edu/jost/), [Jonathan Nagler](http://politics.as.nyu.edu/object/JonathanNagler), [Joshua Tucker](https://files.nyu.edu/jat7/public/), and [Richard Bonneau](http://bonneaulab.bio.nyu.edu/), all members of the [Social Media and Political Participation (SMaPP) Lab](http://smapp.nyu.edu/) at NYU.
 
 > __Abstract:__
 > We estimated ideological preferences of 3.8 million Twitter users and, using a dataset of 150 million tweets concerning 12 political and non-political issues, explored whether online communication resembles an "echo chamber" due to selective exposure and ideological segregation or a "national conversation." We observed that information was exchanged primarily among individuals with similar ideological preferences for political issues (e.g., presidential election, government shutdown) but not for many other current events (e.g., Boston marathon bombing, Super Bowl). Discussion of the Newtown shootings in 2012 reflected a dynamic process, beginning as a "national conversation" before being transformed into a polarized exchange. With respect to political and non-political issues, liberals were more likely than conservatives to engage in cross-ideological dissemination, highlighting an important asymmetry with respect to the structure of communication that is consistent with psychological theory and research. We conclude that previous work may have overestimated the degree of ideological segregation in social media usage.
 
-This README files provides an overview of the replications materials for the article. The [Data](#https://github.com/pablobarbera/echo_chambers#data) section describes the datasets required for the analysis, as well as those generated after the estimation. Note that the data files are not in this repository; they are only available in [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/F9ICHH). The [Code](#https://github.com/pablobarbera/echo_chambers#code) section summarizes the purpose of each R or python script. The [Figures](#https://github.com/pablobarbera/echo_chambers#figures) specifies which specific script generates the tables and figures in the paper.
+This README file provides an overview of the replications materials for the article. The [Data](https://github.com/pablobarbera/echo_chambers#data) section describes the datasets required for the analysis, as well as those generated after the estimation. Note that the data files are not in this repository; they are only available in [Dataverse](http://dx.doi.org/10.7910/DVN/F9ICHH). The [Code](https://github.com/pablobarbera/echo_chambers#code) section summarizes the purpose of each R or python script. 
 
 ## Data
 
@@ -18,6 +18,8 @@ Our datasets are divided in four different folders (zipped in Dataverse):
 - `output/` contains datasets with the raw results of our estimation model, and the ideology scores for political accounts and users in our sample (`estimates.rdata`).
 
 __Note__: All files containing personal information about individual users have been anonymized for privacy reasons, and the original User IDs have been replaced by randomly-generated ID numbers. The complete version of all datasets is available upon request.
+
+To download the data files, go to Dataverse: [http://dx.doi.org/10.7910/DVN/F9ICHH](http://dx.doi.org/10.7910/DVN/F9ICHH)
 
 ## Code
 
