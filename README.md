@@ -8,9 +8,7 @@ This github repository contains the replication code for the paper "Tweeting fro
 
 This README files provides an overview of the replications materials for the article. The [Data](#https://github.com/pablobarbera/echo_chambers#data) section describes the datasets required for the analysis, as well as those generated after the estimation. Note that the data files are not in this repository; they are only available in [Dataverse](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/F9ICHH). The [Code](#https://github.com/pablobarbera/echo_chambers#code) section summarizes the purpose of each R or python script. The [Figures](#https://github.com/pablobarbera/echo_chambers#figures) specifies which specific script generates the tables and figures in the paper.
 
-<center><img src="plots/figure3a.jpg" style="width: 600px;"/></center>
-
-<center><img src="plots/figure3b.jpg" style="width: 600px;"/></center>
+<center><img src="plots/figure3a.jpg" style="width: 300px;"/><img src="plots/figure3b.jpg" style="width: 300px;"/></center>
 
 
 ## Data
