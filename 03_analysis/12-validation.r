@@ -168,8 +168,10 @@ library(ggthemes)
 
 p <- ggplot(voters, aes(x=party, y=ideology))
 pq <- p + geom_boxplot(outlier.colour="grey", outlier.size=1) +
-    scale_y_continuous(expression(paste(theta[i], ", Twitter-Based Ideology Estimates")), limits=c(-3, 3)) +
-        theme(panel.border=element_rect(fill=NA), panel.background = element_blank(), legend.position="none") +
+    scale_y_continuous("Twitter-Based Ideology Estimates", limits=c(-3, 3)) +
+        theme(panel.border=element_rect(fill=NA), 
+            panel.background = element_blank(), legend.position="none",
+            panel.grid.minor=element_blank()) +
     geom_hline(aes(yintercept=0), linetype=3) + coord_flip() + theme(axis.title.y=element_blank())
 pq
 
@@ -177,7 +179,7 @@ pq
 tab <- table(voters$ideology>0.5, voters$party=="Registered Republicans")
 sum(tab[1,1], tab[2,2]) / sum(tab) ## 77% accuracy
 
-ggsave(filename="plots/figure1c.pdf", plot=pq, 
+ggsave(filename="plots/figure1c_revised.pdf", plot=pq, 
         height=2.5, width=8)
 
 
