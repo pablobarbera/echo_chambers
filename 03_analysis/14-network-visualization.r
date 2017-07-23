@@ -21,7 +21,7 @@ for (var in names(users)[5:16]){
 users$tweets <- apply(users[,5:16], 1, sum)
 
 estimates <- merge(estimates[,c("id", "ideology")], 
-	users[,c("id", "screen_name", "followers_count", "tweets")])
+	users[,c("id", "followers_count", "tweets")])
 
 ## 2) compute follower weight
 weights.f <- log(estimates$followers_count)
